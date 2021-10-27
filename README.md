@@ -1,9 +1,9 @@
 # dynamo DB database for “My Stack Overflow”
 
 #### Let us say we identify three tables - Users, Questions, and Answers for this purpose.
-* Table: Users
-  Key: user_id
-  other attributes: password, email
+* Table: Users\
+  Key: user_id\
+  other attributes: password, email\
 
 Table: Questions
 Key: qid (hash)

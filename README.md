@@ -1,4 +1,4 @@
-# dynamo DB database for `My Stack Overflow`
+# dynamoDB database for `My Stack Overflow`
 
 #### Let us say we identify three tables - Users, Questions, and Answers for this purpose.
 * Table: Users\

@@ -3,17 +3,17 @@
 #### Let us say we identify three tables - Users, Questions, and Answers for this purpose.
 * Table: Users\
   Key: user_id\
-  other attributes: password, email\
+  other attributes: password, email 
 
 * Table: Questions\
   Key: qid (hash)\
   Index: user_index: user_id (Hash), qid (range)\
-  other attributes: timestamp, tags\
+  other attributes: timestamp, tags
 
 * Table: Answers\
   Key: qid (Hash), answer_seq_no (Range)\
   Index: user_index: user_id (hash), qid (range)\
-  other attributes: timestamp, thump_up, thumps_down\
+  other attributes: timestamp, thump_up, thumps_down
 
 #### Do following here:
  1. Create said tables on your Dynamo DB server.
@@ -25,4 +25,4 @@
     e. List all questions posted by an user\
     f. List all answers for given “qid”\
     g. List all answers from a given user-id\
-    h. List All answers for given user-name that has ThumpsUp count\
+    h. List All answers for given user-name that has ThumpsUp count

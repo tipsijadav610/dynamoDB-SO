@@ -16,7 +16,7 @@
   other attributes: timestamp, thump_up, thumps_down
 
 #### Do following here:
- 1. Create said tables on your Dynamo DB server.
+ 1. Create said tables on your dynamoDB server.
  2. Write functions for performing following operations on MySO database.\
     a. Add three users. required attributes - user_id, user_name, password, email\
     b. Add five questions. Required attributes - qid, user_id, question-text, timestamp, tags\
